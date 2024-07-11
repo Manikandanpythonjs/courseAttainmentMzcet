@@ -1,0 +1,65 @@
+/* universal selectors */
+
+a {
+  text-decoration: none;
+}
+
+/* ----------------------------- */
+.full-wrapper-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+#content-area {
+  padding: 30px;
+  background-color: red;
+  width: auto;
+}
+
+.sidebar {
+  background-image: linear-gradient(45deg, #328f8a, #08ac4b);
+  color: #fff;
+  height: 100vh;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  white-space: nowrap;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.links {
+  display: flex;
+  color: #fff;
+  gap: 10px;
+  padding: 5px 10px;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.links:hover {
+  border-right: 4px solid #fff;
+  padding: 5px 10px;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  background-color: rgba(51, 51, 51, 0.155);
+}
+
+/* .header-app-bar {
+
+    background-color: #08ac4b;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+} */

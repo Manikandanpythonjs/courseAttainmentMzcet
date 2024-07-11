@@ -1,0 +1,47 @@
+.home {
+  display: flex;
+
+  .homeContainer {
+    // background-color: lightcoral;
+    flex: 4;
+
+    .icons {
+      color: coral;
+      font-size: 25px;
+    }
+
+    .task-info-container {
+      padding: 20px;
+      display: flex;
+      gap: 20px;
+    }
+  }
+}
+
+.search-container {
+  min-width: 23%;
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.041);
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+    &::placeholder {
+      color: #333;
+      font-size: 16;
+    }
+  }
+
+  .search-icon {
+    font-size: 18px;
+    color: #333;
+  }
+}
